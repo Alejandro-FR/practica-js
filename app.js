@@ -19,7 +19,7 @@ function iniciar(){
             var rotada = false;
             cajon.addEventListener('click', function() {
             prin.style.marginTop='0%'; 
-            prin.style.marginLeft='5%';
+            prin.style.marginLeft='9%';
             prin.style.transitionDuration = '1s';
                 for (let i = 1; i <= 5; i++) {
         for (let j = 1; j <= 10; j++) {

@@ -19,7 +19,7 @@ function iniciar(){
             var rotada = false;
             cajon.addEventListener('click', function() {
             prin.style.marginTop='0%'; 
-            prin.style.marginLeft='9%';
+            prin.style.marginLeft='5%';
             prin.style.transitionDuration = '1s';
                 for (let i = 1; i <= 10; i++) {
         for (let j = 1; j <= 20; j++) {
@@ -43,11 +43,11 @@ cajaclick.style.borderRadius = '0%';
 cajaclick.setAttribute('data-sobre', 'true');
 } else {
 cajaclick.style.transform = 'rotate(90deg)';
-cajaclick.style.width = '100px';
-cajaclick.style.height = '100px';
+cajaclick.style.width = '50px';
+cajaclick.style.height = '50px';
 cajaclick.style.background = colorA();
 cajaclick.style.borderRadius = '50%';
-cajaclick.style.margin = '21px';
+cajaclick.style.margin = '10px';
 cajaclick.setAttribute('data-sobre', 'false');
 }
 cajaclick.style.transitionDuration = '1s';

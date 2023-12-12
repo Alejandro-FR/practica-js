@@ -5,8 +5,8 @@ function iniciar(){
             prin.style.marginTop='2%'; 
             prin.style.marginBottom='0%'; 
    
-    for (let i = 1; i <= 5; i++) {
-        for (let j = 1; j <= 10; j++) {
+    for (let i = 1; i <= 10; i++) {
+        for (let j = 1; j <= 20; j++) {
             var ele = document.createElement('div');
             ele.id = 'caja' + i + j;
             prin.appendChild(ele);
@@ -35,8 +35,8 @@ function clickaqui(cajaclick) {
 var sobre = cajaclick.getAttribute('data-sobre');
 if (sobre === 'false') {
 cajaclick.style.transform = 'rotate(45deg)';
-cajaclick.style.width = '100px';
-cajaclick.style.height = '100px';
+cajaclick.style.width = '50px';
+cajaclick.style.height = '50px';
 cajaclick.style.background = colorA();
 cajaclick.style.margin = '21px';
 cajaclick.style.borderRadius = '0%';
@@ -66,8 +66,8 @@ return color;
 
 function estilosP(elegante){
     elegante.style.border = 'solid 1px';
-    elegante.style.width = '60px';
-    elegante.style.height = '60px';
+    elegante.style.width = '30px';
+    elegante.style.height = '30px';
     elegante.style.margin = '10px';
     elegante.style.float = 'left';
     elegante.style.boxSizing='border-box';

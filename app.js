@@ -21,8 +21,8 @@ function iniciar(){
             prin.style.marginTop='0%'; 
             prin.style.marginLeft='9%';
             prin.style.transitionDuration = '1s';
-                for (let i = 1; i <= 5; i++) {
-        for (let j = 1; j <= 10; j++) {
+                for (let i = 1; i <= 10; i++) {
+        for (let j = 1; j <= 20; j++) {
             var cajon = document.getElementById('caja' + i + j);
         clickaqui(cajon);}}
     });
@@ -38,7 +38,7 @@ cajaclick.style.transform = 'rotate(45deg)';
 cajaclick.style.width = '50px';
 cajaclick.style.height = '50px';
 cajaclick.style.background = colorA();
-cajaclick.style.margin = '21px';
+cajaclick.style.margin = '10px';
 cajaclick.style.borderRadius = '0%';
 cajaclick.setAttribute('data-sobre', 'true');
 } else {
@@ -68,7 +68,7 @@ function estilosP(elegante){
     elegante.style.border = 'solid 1px';
     elegante.style.width = '30px';
     elegante.style.height = '30px';
-    elegante.style.margin = '10px';
+    elegante.style.margin = '5px';
     elegante.style.float = 'left';
     elegante.style.boxSizing='border-box';
 }
